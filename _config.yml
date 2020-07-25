@@ -24,7 +24,6 @@ plainwhite:
   showNav: true
   analytics_id: "UA-173571584-1"
   sitemap: true
-  search: true
   navigation:
     - title: Categories
       url: "/categories"
