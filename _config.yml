@@ -13,23 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-texture:
-  title: Sho Kato
-  tagline: Developer
+plainwhite:
+  portfolio_image: "assets/gorilla.jpeg"
+  name: Sho Kato
   date_format: "%b %-d, %Y"
   social_links:
     twitter: sho_kato1219
     github: k-sho
-    linkedin: in/sho-kato
+    linkedIn: in/sho-kato
+  showNav: true
+  analytics_id: "UA-173571584-1"
+  sitemap: true
+  search: true
+  navigation:
+    - title: Categories
+      url: "/categories"
+
+show_excerpts: true
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sho_kato1219
-github_username:  k-sho
 
 # Build settings
 markdown: kramdown
-remote_theme: thelehhman/texture
+remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
