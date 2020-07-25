@@ -13,10 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Technology blog
-email: kato.sho1219@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Technology blog by Sho Kato.
+texture:
+  title: Sho Kato
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  social_links:
+    twitter: sho_kato1219
+    github: k-sho
+    linkedin: in/sho-kato
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sho_kato1219
@@ -27,6 +32,8 @@ markdown: kramdown
 remote_theme: thelehhman/texture
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - github-pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
